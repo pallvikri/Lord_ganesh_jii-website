@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- preconnect the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- navbar elements -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- home-quote h1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- /* ----------------------------------------------------NAVBAR-------------------------------------------------- */
+             /* ----------------------------------------------------NAVBAR-------------------------------------------------- */ -->
+
+        <nav id="navbar-example2" class="navbar my-navbar">
+            <!-- <a class="navbar-brand my-navbar-brand" href="#">GANESH JII</a> -->
+            <ul class="nav my-nav ">
+                <li class="nav-item my-nav-item"><a class="nav-link" href="#scrollspyHeading1">HOME</a></li>
+                <li class="nav-item my-nav-item"><a class="nav-link" href="#scrollspyHeading2">ABOUT</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">EXPLORE</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item my-dropdown-item" href="#scrollspyHeading3">STORIES</a></li>
+                        <li><a class="dropdown-item my-dropdown-item" href="#scrollspyHeading4">FESTIVAL</a></li>
+                        <li><a class="dropdown-item my-dropdown-item" href="#scrollspyHeading5">GALLERY</a></li>
+                        <li><a class="dropdown-item my-dropdown-item" href="#scrollspyHeading6">AARTI</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item my-nav-item"><a class="nav-link" href="#scrollspyHeading7">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!-- /* ----------------------------------------------------HOME-SECTION-------------------------------------------------- */
+             /* ----------------------------------------------------HOME-SECTION-------------------------------------------------- */ -->
+
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <div class="container-fluid home" id="scrollspyHeading1">
+                <!-- <video autoplay muted loop width="100%" class="vdo">
+                    <source src="image/ganesh_jii_video.mp4" type="video/mp4">
+                </video> -->
+                <video autoplay muted width="100%" class="vdo" id="ganeshVideo">
+                    <source src="./image/ganesh_jii_video.mp4" type="video/mp4">
+                </video>
+                <div class="home-quote">
+                    <h1>Ganpati Bappa Morya!</h1>
+                    <h4>"Om Gan Ganapataye Namah"</h4>
+                    <p>Where faith begins, every obstacle fades away.</p>
+                </div>
+
+                <div class="video-overlay"></div>
+            </div>
+
+            <!-- /* ----------------------------------------------------ABOUT-SECTION-------------------------------------------------- */
+                 /* ----------------------------------------------------ABOUT-SECTION-------------------------------------------------- */ -->
+
+            <div class="container-fluid about" id="scrollspyHeading2">
+                <div class="image" id="image1"><img src="/ganesh_jii_website/image/ganesh_jii6.jpg" alt=""></div>
+                <div class="image" id="image2"><img src="/ganesh_jii_website/image/ganesh_jii8.jpg" alt=""></div>
+                <div class="image" id="image3"><img src="/ganesh_jii_website/image/ganesh_jii9.jpg" alt=""></div>
+                <div class="about-content">
+                    <p>
+                        <li>Lord Ganesha, also known as Ganapati, is a beloved Hindu deity known as the remover of
+                            obstacles
+                            and the symbol of wisdom, knowledge, and prosperity.</li>
+                    </p>
+                    <p>
+                        <li>His unique form carries deep meanings. His elephant head represents wisdom, his large ears
+                            symbolize listening and learning, and his trunk represents strength and adaptability.</li>
+                    </p>
+                    <p>
+                        <li>Ganesha is especially celebrated during Ganesh Chaturthi, when devotees come together to
+                            offer
+                            prayers, celebrate his presence, and seek his blessings for happiness, success, and a
+                            prosperous
+                            life.</li>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <!-- /* ---------------------------------------------------- SYMBOLISM -------------------------------------------------- */
+                 /* ---------------------------------------------------- SYMBOLISM -------------------------------------------------- */ -->
+
+
+
+            <div class="container-fluid symbol" id="scrollspyHeading3">
+
+                <div class="symbol_heading">
+                    <h1>The Divine Symbolism of Ganesha</h1>
+                    <p>“Every symbol tells a divine story, and every story holds a lesson for life.”</p>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img"><img src="./image/ganesh_jii.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">🐘 Elephant Head</h5>
+                                <p class="card-text">Represents wisdom, intelligence, understanding, and the strength to
+                                    overcome challenges and obstacles in life.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img"><img src="./image/ear_ganesh_jii.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">👂 Large Ears</h5>
+                                <p class="card-text">Symbolize listening carefully, gaining knowledge, understanding
+                                    others, and learning from the experiences around us.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img"><img src="./image/eye_ganesh_jii.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">👁️ Small Eyes</h5>
+                                <p class="card-text">Represent concentration, focus, careful observation, and the
+                                    ability to look beyond appearances.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/trunk_ganesh_jii.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🐘 Trunk</h5>
+                                <p class="card-text">Symbolizes strength, flexibility, adaptability, and the ability to
+                                    handle both difficult and delicate situations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/teeth_ganpatti_jii.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🦷 Single Tusk</h5>
+                                <p class="card-text">Represents sacrifice, acceptance of imperfections, and the ability
+                                    to overcome differences and challenges.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/musakraj_ganesh_jii.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🐀 Mushak</h5>
+                                <p class="card-text">Represents human desires and restless thoughts, reminding us to
+                                    control our desires instead of being controlled by them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/modak1_ganesh_jii.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🍬 Modak</h5>
+                                <p class="card-text">Symbolizes the sweetness of knowledge, wisdom, spiritual growth,
+                                    and the rewards that come through devotion and patience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/ganesh_jii_lotus.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🪷 Lotus</h5>
+                                <p class="card-text">Represents purity, spiritual growth, resilience, and rising above
+                                    difficulties while remaining positive and graceful.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/hand_ganesh_jii.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🤲 Four Arms</h5>
+                                <p class="card-text">Represent different aspects of life and spiritual qualities, with
+                                    each hand often holding a meaningful symbolic object.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./image/noose_ganpati_jii.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">🪢 Pasha (Noose)</h5>
+                                <p class="card-text">Symbolizes controlling attachments, desires, and distractions while
+                                    guiding the mind toward wisdom, discipline, and a meaningful path.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- /* ------------------------------------------------SIGNIFICANCE -------------------------------------------------- */
+                 /* ------------------------------------------------SIGNIFICANCE -------------------------------------------------- */ -->
+
+            <div class="container-fluid significance" id="scrollspyHeading4">
+                <div class="s-heading">
+                    <h1>The Significance of Lord Ganesha</h1>
+                    <p>“The wisdom to learn, the courage to overcome, and the faith to begin.”</p>
+                </div>
+                <div class="inner-div">
+                    <div class="child-significance">
+                        <div class="circle-significance">🧠</div>
+                        <div class="content-significance">
+                            <h3>Wisdom & Knowledge</h3>
+                            <p>Ganesha represents wisdom, intelligence, learning, and the ability to make thoughtful
+                                decisions.</p>
+                        </div>
+                    </div>
+                    <div class="child-significance">
+                        <div class="child-significance">
+                            <div class="circle-significance">🚧</div>
+                            <div class="content-significance">
+                                <h3>Removing Obstacles</h3>
+                                <p>Ganesha is traditionally worshipped for guidance and blessings when facing challenges
+                                    and obstacles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="child-significance">
+                        <div class="child-significance">
+                            <div class="circle-significance">🌱</div>
+                            <div class="content-significance">
+                                <h3>New Beginnings</h3>
+                                <p>Ganesha is worshipped before important occasions, symbolizing auspicious beginnings,
+                                    hope, and positive progress.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="child-significance">
+                        <div class="child-significance">
+                            <div class="circle-significance">💰</div>
+                            <div class="content-significance">
+                                <h3>Prosperity & Success</h3>
+                                <p>Ganesha is associated with prosperity, success, happiness, and progress in different
+                                    aspects of life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /* ------------------------------------------------GANESH CHATURTHI -------------------------------------------------- */
+                 /* ------------------------------------------------GANESH CHATURTHI -------------------------------------------------- */ -->
+
+            <div class="container-fluid best-seller" id="scrollspyHeading4">
+
+                <!-- <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000"> -->
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./image/bs-icecream3.jpg" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Everyone's Favourite Scoops</h1>
+                                <h3 style="color: chocolate;">Chocolate Brownie Sundae</h3>
+                                <div class="bs-des">
+                                    <p>A rich and indulgent treat featuring creamy chocolate ice cream topped with soft,
+                                        fudgy brownie pieces. It delivers the perfect combination
+                                        of smooth chocolatey goodness and delicious brownie bites, creating a heavenly
+                                        dessert for every chocolate lover. It’s decadent, satisfying, and irresistibly
+                                        delicious from the very first spoonful.</p>
+                                </div>
+                                <p><a class="btn btn-secondary flavour-button" href="#">Order Now »</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./image/bs-icecream2.jpg" class="d-block " alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Everyone's Favourite Scoops</h1>
+                                <h3 style="color: purple;">Blueberry Bliss</h3>
+                                <div class="bs-des">
+                                    <p>A creamy, dreamy delight bursting with juicy blueberry flavor. Blueberry Bliss
+                                        combines smooth ice cream with sweet, fruity goodness for a refreshing treat
+                                        that melts beautifully in every bite. A customer favorite for those who love the
+                                        perfect balance of creamy richness and vibrant berry freshness.</p>
+                                </div>
+                                <p><a class="btn btn-secondary flavour-button" href="#">Order Now »</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/bs-icecream.jpg" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Everyone's Favourite Scoops</h1>
+                                <h3 style="color: rgb(163, 135, 100);">Cherry Vanilla Delight</h3>
+                                <div class="bs-des">
+                                    <p>A luscious combination of smooth vanilla ice cream and juicy cherries, creating a
+                                        delightful balance of creamy sweetness and fruity freshness. Cherry Vanilla
+                                        Delight offers a rich, refreshing taste with every spoonful, making it a perfect
+                                        choice for anyone who loves classic vanilla paired with a delicious burst of
+                                        cherry flavor.</p>
+                                </div>
+                                <p><a class="btn btn-secondary flavour-button" href="#">Order Now »</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="container-fluid g-c" id="scrollspyHeading5">
+                <div class="inner-g-c">
+                    <div class="gc-image"></div>
+                    <div class="gc-content"></div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <h4 id="scrollspyHeading6">Fifth heading</h4>
+            <p>...</p>
+            <h4 id="scrollspyHeading7">Fifth heading</h4>
+            <p>...</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            const video = document.getElementById("ganeshVideo");
+            video.addEventListener("timeupdate", function () {
+                if (video.currentTime >= 15) {
+                    video.currentTime = 0;
+                    video.play();
+                }
+            });
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
